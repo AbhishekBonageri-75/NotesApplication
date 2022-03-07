@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android Notes</string>
+    <string name="about">About</string>
+    <string name="newnote">NewNote</string>
+    <string name="date_time">Date Time</string>
+    <string name="file_name">notes.json</string>
+    <string name="saved">Note saved</string>
+    <string name="no_file">No such file found</string>
+    <string name="no_way">no</string>
+</resources>
