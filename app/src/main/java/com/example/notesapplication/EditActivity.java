@@ -112,9 +112,9 @@ public class EditActivity extends AppCompatActivity {
                          );
                 notesList.add(n);
 //              Toast.makeText(this, "-- "+n.getTime(), Toast.LENGTH_SHORT).show();
-                Toast.makeText(this,title.getText().toString(),Toast.LENGTH_SHORT).show();
-                Toast.makeText(this,description.getText().toString(),Toast.LENGTH_SHORT).show();
-                Toast.makeText(this,n.toString(),Toast.LENGTH_SHORT).show();
+//                Toast.makeText(this,title.getText().toString(),Toast.LENGTH_SHORT).show();
+//                Toast.makeText(this,description.getText().toString(),Toast.LENGTH_SHORT).show();
+//                Toast.makeText(this,n.toString(),Toast.LENGTH_SHORT).show();
                 savejson();
                 Intent intent = new Intent(EditActivity.this , MainActivity.class);
                 startActivity(intent);

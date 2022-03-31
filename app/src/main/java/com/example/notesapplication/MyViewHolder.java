@@ -15,7 +15,5 @@ public class MyViewHolder extends RecyclerView.ViewHolder {
         description = view.findViewById(R.id.description_row);
         description.setMovementMethod(new ScrollingMovementMethod());
         time = view.findViewById(R.id.time_row);
-
     }
-
 }
